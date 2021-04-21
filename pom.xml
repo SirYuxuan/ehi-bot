@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yuxuan66</groupId>
+    <artifactId>ehiBot</artifactId>
+    <version>1.0.1</version>
+    <description>雨轩多功能机器人(开源版,如需定制请联系 QQ: 1718018032 微信: yuxuanks)</description>
+
+    <developers>
+        <developer>
+            <name>Sir丶雨轩</name>
+            <email>1718018032@qq.com</email>
+            <url>https://www.yuxuan66.com</url>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.source>8</java.source>
+    </properties>
+
+
+
+</project>
