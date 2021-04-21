@@ -49,7 +49,7 @@ public class Const {
     /**
      * 全局唯一的机器人对象
      */
-    public final static Bot BOT = BotFactoryJvm.newBot(2438372649L, "yuxuanll2012", new BotConfiguration() {{
+    public final static Bot BOT = BotFactoryJvm.newBot(********, "********", new BotConfiguration() {{
         fileBasedDeviceInfo("deviceInfo.json");
         setProtocol(MiraiProtocol.ANDROID_PHONE);
     }});
