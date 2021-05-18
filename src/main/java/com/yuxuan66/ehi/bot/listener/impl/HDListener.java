@@ -36,8 +36,8 @@ public class HDListener implements Listener {
                 put("qq",getQQ(event));
             }}, Map.class);
 
-           if(lpInfo.isEmpty()){
-            sendMessage(event,"对不起,您还没有注册系统或没设置QQ号\r\nhttp://www.hd-eve.com");
+           if(lpInfo == null || lpInfo.isEmpty()){
+                sendMessage(event,"对不起,您还没有注册系统或没设置QQ号\r\nhttp://www.hd-eve.com");
                return;
            }
 

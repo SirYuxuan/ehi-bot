@@ -16,11 +16,10 @@ public class BotApp {
 
     public static void main(String[] args) {
 
-        Const.BOT.login();
+            Const.BOT.login();
+            Events.registerEvents(new EhiListenerHost());
 
-        Events.registerEvents(new EhiListenerHost());
-
-        Const.BOT.join();
+            Const.BOT.join();
 
     }
 }

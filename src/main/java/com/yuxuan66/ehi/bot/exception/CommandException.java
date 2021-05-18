@@ -1,5 +1,4 @@
 package com.yuxuan66.ehi.bot.exception;
-
 import lombok.Data;
 import net.mamoe.mirai.event.Event;
 

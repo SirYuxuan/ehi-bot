@@ -21,6 +21,7 @@ import java.util.Map;
 @Slf4j
 public class Const {
 
+    public static String LINE = "\r\n";
     public final static List<Listener> MESSAGE_HANDLERS = new ArrayList<>();
     public final static Map<String, HandlerInfo> HANDLER_INFO_MAP = new HashMap<>();
 

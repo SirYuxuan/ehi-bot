@@ -1,8 +1,5 @@
 package com.yuxuan66.ehi.bot.utils;
 
-import com.yuxuan66.ehi.bot.exception.CommandException;
-import net.mamoe.mirai.event.Event;
-
 /**
  * 处理命令行
  * @author Sir丶雨轩

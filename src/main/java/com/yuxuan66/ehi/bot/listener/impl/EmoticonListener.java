@@ -79,7 +79,9 @@ public class EmoticonListener implements Listener {
 
     @Override
     public void gotAMessage(Event event, String message) throws CommandException {
-
+        if(getQQ(event).equals(2275840770L)){
+            return;
+        }
         if (message.startsWith("表情包")) {
             String[] arr = message.split(" ");
             Map<String, Object> param = new HashMap<>();

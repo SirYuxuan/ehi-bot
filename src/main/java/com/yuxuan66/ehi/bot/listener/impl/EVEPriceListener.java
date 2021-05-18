@@ -85,7 +85,8 @@ public class EVEPriceListener implements Listener {
             sendMessage.append("=============");
 
         }
-        sendMessage.append("\r\n国服【月上星城】招新\r\n");
+        sendMessage.append("\r\n软件、网站、开发，机器人定制请看头像\r\n");
+        sendMessage.append("欧服：混沌仲裁者招新\r\n");
         sendMessage.append("=============");
         sendMessage(event,sendMessage.toString());
     }

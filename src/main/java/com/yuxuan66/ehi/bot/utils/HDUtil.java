@@ -3,7 +3,6 @@ package com.yuxuan66.ehi.bot.utils;
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSONObject;
 
-import java.sql.SQLException;
 
 /**
  * @author Sir丶雨轩

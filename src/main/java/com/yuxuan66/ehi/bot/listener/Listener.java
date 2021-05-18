@@ -2,6 +2,7 @@ package com.yuxuan66.ehi.bot.listener;
 
 import com.yuxuan66.ehi.bot.exception.CommandException;
 import net.mamoe.mirai.contact.Group;
+import net.mamoe.mirai.contact.Member;
 import net.mamoe.mirai.event.Event;
 import net.mamoe.mirai.message.GroupMessageEvent;
 import net.mamoe.mirai.message.MessageEvent;
@@ -70,5 +71,6 @@ public interface Listener {
     default Group getGroup(Event event){
         return ((GroupMessageEvent)event).getGroup();
     }
+
 
 }

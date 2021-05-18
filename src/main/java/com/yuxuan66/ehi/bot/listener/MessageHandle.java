@@ -1,6 +1,5 @@
 package com.yuxuan66.ehi.bot.listener;
 
-import com.google.common.util.concurrent.SimpleTimeLimiter;
 import com.yuxuan66.ehi.bot.consts.Const;
 import com.yuxuan66.ehi.bot.exception.CommandException;
 import net.mamoe.mirai.event.Event;
@@ -33,8 +32,8 @@ public class MessageHandle {
 
             try {
                 future.get(5000, TimeUnit.MILLISECONDS);
-            } catch (InterruptedException | ExecutionException | TimeoutException e) {
-                listener.sendMessage(event,"查询过慢,请耐心等待");
+            } catch (InterruptedException | ExecutionException | TimeoutException ignored) {
+
             }
 
         }
